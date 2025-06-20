@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('checkout') {
       steps {
-        git(url: 'https://github.com/devopsbyraham/jenkins-java-project.git', branch: 'master')
+        git(url: 'https://github.com/siba-9439/Jenkins-Project.git', branch: 'master')
       }
     }
 
